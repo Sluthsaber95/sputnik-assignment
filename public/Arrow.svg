@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="37px" viewBox="0 0 21 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect x="1339" y="379" width="21" height="37" id="rect-1"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1339.000000, -379.000000)">
+            <g id="BANNER">
+                <g id="Arrow">
+                    <image x="1339" y="379" width="21" height="37" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAlCAYAAACtbaI7AAAAAXNSR0IArs4c6QAAAR1JREFUSA2t1rsOwjAMBdCyAhILbEgw8CV8ODswsiEGBr6Btdxb4cqK8nASRzI0Dx+SthIexnEcEGfEFbH79znWHAJ+gbA9EXtEM8hcJnOHur3Q6YKJ8sgPreK6C5ZjusKCuu5Yo25wiAp877nHMZRjG0TzW5FCc/ARP5jLm97T3ILYjj9ATzk4B8pcNSyJpe8quITpeTOskyzXJtgChWuKcJhg7a/x9C8I3ea3worE1i0hRuEFJoaOtkXuG7FSxjW2A+tYcqdWIFznfk/dn34RnJ4RP4xhAmtQM2hFq0ALWg2W0BjIeuDAxFykJlOgqXKJoSwsbgjdqiqWEHWpVDTqAuJ487+pGyioKyhocyVCIBYcZGnuXkkL7Fbz/wCkZHvoEgDd7AAAAABJRU5ErkJggg=="></image>
+                    <use fill-opacity="0" fill="#000000" fill-rule="evenodd" xlink:href="#rect-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

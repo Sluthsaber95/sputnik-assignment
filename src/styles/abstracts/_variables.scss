@@ -1,0 +1,29 @@
+/* FONT WEIGHTS */
+$bold: 700;
+$regular: 300;
+
+/* FONT SIZES */
+$font-sizes: 
+13px, 14px, 16px, 17px,
+18px, 20px, 24px, 30px,
+40px, 60px, 70px;
+
+$block-main-small: nth($font-sizes, 9);
+$block-main-medium: nth($font-sizes, 10);
+$block-main-large: nth($font-sizes, 11);
+$block-title-small: nth($font-sizes, 6);
+$block-title-large: nth($font-sizes, 8);
+$footer-section: nth($font-sizes, 1);
+$footer-title: nth($font-sizes, 2);
+$paragraph-small: nth($font-sizes, 4);
+$paragraph-large: nth($font-sizes, 7);
+
+
+/* COLORS */
+$white: #FFFFFF;
+$gainboro: #D9D9D9;
+$dim-gray: #676E6C;
+$dark-slate-gray: #333333;
+$black: #000000;
+$coral-orange: #EF7D30;
+$indian-red: #C9146C;

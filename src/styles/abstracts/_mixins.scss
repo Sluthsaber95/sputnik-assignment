@@ -1,0 +1,20 @@
+/* FONT STYLES */
+@mixin dark-gray-bold {
+  color: $dark-slate-gray;
+  font-weight: $bold;
+}
+
+@mixin dark-gray-regular {
+  color: $dark-slate-gray;
+  font-weight: $regular;
+}
+
+@mixin white-bold {
+  color: $white;
+  font-weight: $bold;
+}
+
+@mixin white-regular {
+  color: $white;
+  font-weight: $regular;
+}

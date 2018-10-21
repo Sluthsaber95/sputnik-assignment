@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Search icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect x="1160" y="45" width="19" height="19" id="rect-1"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1160.000000, -45.000000)">
+            <g id="HEADER">
+                <g id="Search-icon">
+                    <image x="1160" y="45" width="19" height="19" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IArs4c6QAAAd5JREFUOBGllM9LlEEYx3c1PAjdQkj0JuU1FEq6pElgmSfvkiDaIUIv/gd5khCFQsT24EGkS3lTMlqECBIVBFG6dUhE8b5a6+czu7O8/soVv/B5Z2bfZ77zvM/MbDqfz6fUwKvXoeVxD/rgCdRDBfyBJZiGLJzR+/GxEBhfVNMxeAVewk34Dt8gDT3F/mfaW3BGrmpWGn2BF7AGZnUbHkE7mOED+ArPwUVq4ISCGb9MgMFzxXaR9h8k9YPBY3gLDTALJ1S5s39gjd6BGT2DHPxPC7xsBrNfhS1IdT7tCDWz2NZkGC4zIiTljg3ZQf2FpvD0M11hF6xZudom0I2ynpVxkmYWdxNO1yjGXNRu8KIKShuhmRzBVRXnOD/IjgfybmF4pWcj0X6NJQrSbAnq4H74pbxHLWEtkIXDOEWz6eJghNZdLUdvCHLuh2RwBXdK93lohVG4zHCSGK/WOsxASbqrXvgFg6DxHTgtPy0Dnku1DzdCr/gIZmS3x/ghePe8BZ7qn5CBKViG3xAzss5t8BE8HkFJZ3fFgC7wZLdDEyh3LQvWaAacp5GX3rYbculz/s/4PciT7YE0excq7Rp9ZUbR0NJ0JzMzIKm/DDyDFynHCzOKhnOueh1Fw0+YNB0DE7xn+YHr2/wAAAAASUVORK5CYII="></image>
+                    <use fill-opacity="0" fill="#000000" fill-rule="evenodd" xlink:href="#rect-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
