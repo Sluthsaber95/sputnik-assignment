@@ -1,8 +1,9 @@
 import React, { Component } from "react";
+import { NavigationMain } from "./components"
 
 class App extends Component {
   render() {
-    return <div styles={{fontWeight: 700}}>Helvetica Neue works</div>;
+    return <div><NavigationMain /></div>;
   }
 }
 
