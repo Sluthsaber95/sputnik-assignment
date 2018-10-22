@@ -10,7 +10,7 @@ import {
 import "../styles/index.css";
 
 import { IconArrow, IconMinus, IconPlus, IconSearch } from "./static/icons";
-import { LogoHeader } from "./static/images";
+
 const colors = [
   {
     name: "Gainsboro",
