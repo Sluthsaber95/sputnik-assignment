@@ -11,6 +11,7 @@ $block-title-small: nth($font-sizes, 6);
 $block-title-large: nth($font-sizes, 8);
 $footer-section: nth($font-sizes, 1);
 $footer-title: nth($font-sizes, 2);
+$nav-section: nth($font-sizes, 3);
 $paragraph-small: nth($font-sizes, 4);
 $paragraph-large: nth($font-sizes, 7);
 
@@ -23,3 +24,13 @@ $dark-slate-gray: #333333;
 $black: #000000;
 $coral-orange: #EF7D30;
 $indian-red: #C9146C;
+
+/* MEDIA QUERIES*/
+
+$break-mobile-sm: 320px;
+$break-mobile-md: 480px;
+$break-mobile-lg: 568px;
+$break-tablet: 768px;
+$break-desktop-sm: 1023px;
+$break-desktop-md: 1223px;
+$break-desktop-lg: 1920px;
