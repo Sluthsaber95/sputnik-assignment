@@ -2,9 +2,11 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 
 import {
+  Marker,
   NavigationSection,
   NavigationLabel,
-  NavigationMain
+  NavigationMain,
+  SlideMarkers
 } from "../components";
 
 import "../styles/index.css";
@@ -219,4 +221,38 @@ storiesOf("Top Navigation", module)
     <div style={{ width: "100%" }}>
       <NavigationMain />
     </div>
-  ))
+  ));
+
+storiesOf("Hero Banner", module)
+  .addDecorator(CenterDecorator)
+  .add("Markers", () => {
+    const containerStyle = {
+      background: colors[0].hexcode,
+      width: "100vw",
+      height: "100vh",
+      display: "flex",
+      justifyContent: "center",
+      paddingTop: 20
+    };
+    return (
+      <div style={containerStyle}>
+        <Marker active={true} />
+        <Marker />
+      </div>
+    );
+  })
+  .add("SlideMarker", () => {
+    const containerStyle = {
+      background: colors[0].hexcode,
+      width: "100vw",
+      height: "100vh",
+      display: "flex",
+      justifyContent: "center",
+      paddingTop: 20
+    };
+    return (
+      <div style={containerStyle}>
+        <SlideMarkers />
+      </div>
+    );
+  });

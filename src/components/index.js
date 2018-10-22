@@ -4,4 +4,9 @@ import {
   NavigationMain
 } from "./NavigationTop";
 
-export { NavigationSection, NavigationLabel, NavigationMain };
+import {
+  SlideMarkers, 
+  Marker
+} from "./BannerHero"
+
+export { Marker, NavigationSection, NavigationLabel, NavigationMain, SlideMarkers };
