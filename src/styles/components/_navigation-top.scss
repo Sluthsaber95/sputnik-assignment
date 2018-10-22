@@ -3,16 +3,18 @@
     width: auto;
     height: 90px;
     margin: 0 auto;
+    padding: 10px;
     background: $white;
   }
   
   .nav-main {
     .nav-main__img {
+      width: 100px;
       float: left;
     }
   }
   .nav-main__icon {
-    margin-top: 4px;
+    margin-top: 0px;
   }
   .nav-main__icon--hamburger {
     display: block;
@@ -43,6 +45,7 @@
   
   .nav-main {
     .nav-main__img {
+      width: 190px;
       float: left;
     }
   }
@@ -78,6 +81,7 @@
   
   .nav-main {
     .nav-main__img {
+      width: 190px;
       float: left;
     }
   }
@@ -108,11 +112,14 @@
     width: 600px;
     height: 90px;
     margin: 0 auto;
+    text-align: center;
+    padding: 38px 10px;
     background: $white;
   }
   
   .nav-main {
     .nav-main__img {
+      width: 190px;
       float: none;
     }
   }
@@ -148,6 +155,7 @@
   
   .nav-main {
     .nav-main__img {
+      width: 190px;
       float: left;
     }
   }
@@ -177,6 +185,7 @@
   
   .nav-main {
     .nav-main__img {
+      width: 190px;
       float: left;
     }
   }
