@@ -10,6 +10,8 @@
     'layout/navigation',
     'layout/footer';
 
-@import 'components/buttons';
+@import 
+    'components/common/buttons',
+    'components/navigation-top';
 
 @import 'vendors/normalize';
