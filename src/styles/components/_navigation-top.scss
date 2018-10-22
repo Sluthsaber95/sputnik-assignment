@@ -1,0 +1,197 @@
+@media(min-width: $break-mobile-sm){
+  .nav-main {
+    width: auto;
+    height: 90px;
+    margin: 0 auto;
+    background: $white;
+  }
+  
+  .nav-main {
+    .nav-main__img {
+      float: left;
+    }
+  }
+  .nav-main__icon {
+    margin-top: 4px;
+  }
+  .nav-main__icon--hamburger {
+    display: block;
+    width: 30px;
+    float: right;
+  }
+  .nav-section {
+    display: none;
+    background: $white;
+    margin: 10px 0px;
+    float: none;
+  }
+  
+  .nav-label {
+    @include dark-gray-regular();
+    font-size: $nav-section;
+    background: $white;
+  }
+}
+
+@media(min-width: $break-mobile-md){
+  .nav-main {
+    width: auto;
+    height: 90px;
+    margin: 0 auto;
+    background: $white;
+  }
+  
+  .nav-main {
+    .nav-main__img {
+      float: left;
+    }
+  }
+  .nav-main__icon {
+    margin-top: 4px;
+  }
+  .nav-main__icon--hamburger {
+    display: block;
+    width: 30px;
+    float: right;
+  }
+  .nav-section {
+    display: none;
+    background: $white;
+    margin: 10px 0px;
+    float: none;
+  }
+  
+  .nav-label {
+    @include dark-gray-regular();
+    font-size: $nav-section;
+    background: $white;
+  }
+}
+
+@media(min-width: $break-mobile-lg){
+  .nav-main {
+    width: auto;
+    height: 90px;
+    margin: 0 auto;
+    background: $white;
+  }
+  
+  .nav-main {
+    .nav-main__img {
+      float: left;
+    }
+  }
+  .nav-main__icon {
+    margin-top: 8px;
+  }
+  .nav-main__icon--hamburger {
+    display: block;
+    width: 30px;
+    float: right;
+  }
+  .nav-section {
+    display: none;
+    background: $white;
+    margin: 10px 0px;
+    float: none;
+  }
+  
+  .nav-label {
+    @include dark-gray-regular();
+    font-size: $nav-section;
+    background: $white;
+  }
+}
+
+@media(min-width: $break-tablet){
+  .nav-main {
+    width: 600px;
+    height: 90px;
+    margin: 0 auto;
+    background: $white;
+  }
+  
+  .nav-main {
+    .nav-main__img {
+      float: none;
+    }
+  }
+  .nav-main__icon {
+    margin-top: 4px;
+  }
+  .nav-main__icon--hamburger {
+    display: none;
+    width: 30px;
+    float: right;
+  }
+  .nav-section {
+    display: block;
+    background: $white;
+    margin: 10px 0px;
+    float: none;
+  }
+  
+  .nav-label {
+    @include dark-gray-regular();
+    font-size: $nav-section;
+    background: $white;
+  }
+}
+
+@media(min-width: $break-desktop-sm){
+  .nav-main {
+    width: 800px;
+    height: 45px;
+    margin: 0 auto;
+    background: $white;
+  }
+  
+  .nav-main {
+    .nav-main__img {
+      float: left;
+    }
+  }
+  .nav-main__icon {
+    margin-top: 8px;
+  }
+  .nav-section {
+    background: $white;
+    margin: 0px;
+    float: right;
+  }
+  
+  .nav-label {
+    @include dark-gray-regular();
+    font-size: $nav-section;
+    background: $white;
+  }
+}
+
+@media(min-width: $break-desktop-md){
+  .nav-main {
+    width: 968px;
+    height: 45px;
+    margin: 0 auto;
+    background: $white;
+  }
+  
+  .nav-main {
+    .nav-main__img {
+      float: left;
+    }
+  }
+  .nav-main__icon {
+    margin-top: 8px;
+  }
+  .nav-section {
+    background: $white;
+    margin: 0px;
+    float: right;
+  }
+  
+  .nav-label {
+    @include dark-gray-regular();
+    font-size: $nav-section;
+    background: $white;
+  }
+}
