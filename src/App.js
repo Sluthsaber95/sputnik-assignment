@@ -1,9 +1,14 @@
 import React, { Component } from "react";
-import { NavigationMain } from "./components"
+import { BannerHero, NavigationMain } from "./components";
 
 class App extends Component {
   render() {
-    return <div><NavigationMain /></div>;
+    return (
+      <div>
+        <NavigationMain />
+        <BannerHero />
+      </div>
+    );
   }
 }
 

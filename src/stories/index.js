@@ -2,16 +2,17 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 
 import {
+  BannerHero,
+  ButtonRectangle,
+  ButtonRounded,
   Marker,
   NavigationSection,
   NavigationLabel,
   NavigationMain,
   SlideMarkers
 } from "../components";
-
-import "../styles/index.css";
-
 import { IconArrow, IconMinus, IconPlus, IconSearch } from "./static/icons";
+import "../styles/index.css";
 
 const colors = [
   {
@@ -47,6 +48,7 @@ const centerStyles = {
 };
 
 const CenterDecorator = storyFn => <div style={centerStyles}>{storyFn()}</div>;
+const SideDecorator = storyFn => <div style={{ padding: 20 }}>{storyFn()}</div>;
 
 storiesOf("Design Language", module)
   .add("Colors", () => {
@@ -189,7 +191,7 @@ storiesOf("Design Language", module)
           }}
         >
           <IconWrapper>
-            <img src={IconArrow} alt="hero banner carousel arrow icon left" />
+            <img src={IconArrow} alt="hero banner carousel arrow icon right" />
           </IconWrapper>
           <IconWrapper>
             <img src={IconMinus} alt="exclude region minus icon" />
@@ -204,6 +206,11 @@ storiesOf("Design Language", module)
       </div>
     );
   });
+
+storiesOf("Buttons", module)
+  .addDecorator(SideDecorator)
+  .add("Button Rectangular", () => <ButtonRectangle text="All services" />)
+  .add("Button Rounded", () => <ButtonRounded text="Find out more" />);
 
 storiesOf("Top Navigation", module)
   .addDecorator(CenterDecorator)
@@ -224,7 +231,7 @@ storiesOf("Top Navigation", module)
   ));
 
 storiesOf("Hero Banner", module)
-  .addDecorator(CenterDecorator)
+  .addDecorator(SideDecorator)
   .add("Markers", () => {
     const containerStyle = {
       background: colors[0].hexcode,
@@ -255,4 +262,5 @@ storiesOf("Hero Banner", module)
         <SlideMarkers />
       </div>
     );
-  });
+  })
+  .add("BannerHero", () => <BannerHero />)

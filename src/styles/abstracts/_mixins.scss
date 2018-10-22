@@ -1,30 +1,52 @@
 /* FONT FAMILIES */
-@mixin helvetica-bold {
-  font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:600; font-stretch:normal;
-}
 
 @mixin helvetica-regular {
-  font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:400; font-stretch:normal;
+  font-family: "Helvetica", "Helvetica", "HelveticaRoman", "Helvetica-Roman", "Helvetica Roman", 'TeXGyreHerosRegular', "Tahoma", "Geneva", "Arial", sans-serif; font-weight:$regular; font-stretch:normal;
+}
+
+@mixin helvetica-neue-bold {
+  font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:$bold; font-stretch:normal;
+}
+
+@mixin helvetica-neue-regular {
+  font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:$regular; font-stretch:normal;
 }
 
 /* FONT STYLES */
 @mixin dark-gray-bold {
   color: $dark-slate-gray;
   font-weight: $bold;
-  @include helvetica-bold()
+  @include helvetica-neue-bold()
 }
 
 @mixin dark-gray-regular {
   color: $dark-slate-gray;
-  @include helvetica-regular()
+  @include helvetica-neue-regular()
 }
 
 @mixin white-bold {
   color: $white;
-  @include helvetica-bold()
+  @include helvetica-neue-bold()
 }
 
 @mixin white-regular {
   color: $white;
+  @include helvetica-neue-regular()
+}
+
+@mixin button-text-gray {
+  color: $dark-slate-gray;
   @include helvetica-regular()
 }
+
+@mixin button-text-white {
+  color: $white;
+  @include helvetica-regular()
+}
+
+@mixin button-size {
+  width: 206px;
+  height: 48px;
+}
+
+/* CONTAINER SIZES */

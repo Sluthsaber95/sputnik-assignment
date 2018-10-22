@@ -1,12 +1,20 @@
+import { ButtonRectangle, ButtonRounded } from "./Buttons";
+
 import {
   NavigationSection,
   NavigationLabel,
   NavigationMain
 } from "./NavigationTop";
 
-import {
-  SlideMarkers, 
-  Marker
-} from "./BannerHero"
+import { BannerHero, SlideMarkers, Marker } from "./BannerHero";
 
-export { Marker, NavigationSection, NavigationLabel, NavigationMain, SlideMarkers };
+export {
+  BannerHero,
+  ButtonRectangle,
+  ButtonRounded,
+  Marker,
+  NavigationSection,
+  NavigationLabel,
+  NavigationMain,
+  SlideMarkers
+};

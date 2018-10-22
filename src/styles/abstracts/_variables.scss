@@ -1,8 +1,12 @@
+/* FONT WEIGHTS */
+$bold: 700;
+$regular: 400;
+
 /* FONT SIZES */
 $font-sizes: 
 13px, 14px, 16px, 17px,
 18px, 20px, 24px, 30px,
-40px, 60px, 70px;
+40px, 50px, 60px, 70px;
 
 $block-main-small: nth($font-sizes, 9);
 $block-main-medium: nth($font-sizes, 10);
@@ -26,7 +30,6 @@ $coral-orange: #EF7D30;
 $indian-red: #C9146C;
 
 /* MEDIA QUERIES*/
-
 $break-mobile-sm: 320px;
 $break-mobile-md: 480px;
 $break-mobile-lg: 568px;

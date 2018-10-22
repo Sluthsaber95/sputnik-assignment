@@ -1,4 +1,5 @@
+import BannerHero from "./BannerHero";
 import Marker from "./Marker";
 import SlideMarkers from "./SlideMarkers";
 
-export { Marker, SlideMarkers };
+export { BannerHero, Marker, SlideMarkers };

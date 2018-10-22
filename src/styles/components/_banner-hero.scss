@@ -1,16 +1,465 @@
-.slide-marker__unit {
-  display: inline-block;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  border: 1px solid $white;
-  margin: 0px 0px 0px 5px;
+@media(min-width: $break-mobile-sm){
+  .banner {
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .banner--inner {
+    max-width: 786px;
+    margin: 0 auto;
+    padding: 30px 0px 53px 0px;
+  }
+  
+  .banner--inner__container {
+    max-width: 200px;
+    text-align: center;
+    margin: 0px auto;
+  }
+  
+  .banner--inner-title {
+    display: block;
+    @include white-regular;
+    font-size: nth($font-sizes, 7);
+  }
+  
+  .banner--inner-main {
+    display: block;
+    @include white-bold;
+    font-size: nth($font-sizes, 8);
+    margin: 30px 0px;
+  }
+  
+  .banner--inner-arrow {
+    width: 16px;
+    height: 28px;
+    position: absolute;
+    right: 10px;
+    top: 226px;
+  }
+  
+  .banner--inner-paragraph {
+    display: none;
+    @include white-regular;
+    font-size: nth($font-sizes, 7);
+    margin: 0px;
+  }
+  
+  .banner__img--crop {
+    position: relative;
+    max-width: calc(1400px * 0.6);
+    height: calc(758px * 0.6);
+  }
+  
+  .banner__img--crop::before {
+    position: absolute;
+    content: '';
+    z-index: -1;
+    width: 1400px;
+    height: 100px;
+  }
+  
+  .slide-marker__unit {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    border: 1px solid $white;
+    margin: 0px 0px 0px 5px;
+  }
+  
+  .slide-marker__unit--active {
+    background: $white
+  }
+  
+  .slide-marker__unit--unactive {
+    background: none;
+  }
 }
 
-.slide-marker__unit--active {
-  background: $white
+@media(min-width: $break-mobile-md){
+  .banner {
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .banner--inner {
+    max-width: 786px;
+    margin: 0 auto;
+    padding: 30px 0px 53px 0px;
+  }
+  
+  .banner--inner__container {
+    max-width: 300px;
+    text-align: center;
+    margin: 0px auto;
+  }
+  
+  .banner--inner-title {
+    display: block;
+    @include white-regular;
+    font-size: nth($font-sizes, 7);
+  }
+  
+  .banner--inner-main {
+    display: block;
+    @include white-bold;
+    font-size: nth($font-sizes, 8);
+    margin: 30px 0px;
+  }
+  
+  .banner--inner-arrow {
+    width: 21px;
+    height: 37px;
+    position: absolute;
+    right: 40px;
+    top: 200px;
+  }
+  
+  .banner--inner-paragraph {
+    display: none;
+    @include white-regular;
+    font-size: nth($font-sizes, 7);
+    margin: 0px;
+  }
+  
+  .banner__img--crop {
+    position: relative;
+    max-width: calc(1400px * 0.6);
+    height: calc(758px * 0.6);
+  }
+  
+  .banner__img--crop::before {
+    position: absolute;
+    content: '';
+    z-index: -1;
+    width: 1400px;
+    height: 100px;
+  }
+  
+  .slide-marker__unit {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    border: 1px solid $white;
+    margin: 0px 0px 0px 5px;
+  }
+  
+  .slide-marker__unit--active {
+    background: $white
+  }
+  
+  .slide-marker__unit--unactive {
+    background: none;
+  }
 }
 
-.slide-marker__unit--unactive {
-  background: none;
+@media(min-width: $break-mobile-lg){
+  .banner {
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .banner--inner {
+    max-width: 786px;
+    margin: 0 auto;
+    padding: 30px 0px 53px 0px;
+  }
+  
+  .banner--inner__container {
+    max-width: 500px;
+    text-align: center;
+    margin: 0px auto;
+  }
+  
+  .banner--inner-title {
+    display: block;
+    @include white-regular;
+    font-size: nth($font-sizes, 7);
+  }
+  
+  .banner--inner-main {
+    display: block;
+    @include white-bold;
+    font-size: nth($font-sizes, 9);
+    margin: 30px 0px;
+  }
+  
+  .banner--inner-arrow {
+    width: 21px;
+    height: 37px;
+    position: absolute;
+    right: 40px;
+    top: 246px;
+  }
+  
+  .banner--inner-paragraph {
+    display: none;
+    @include white-regular;
+    font-size: nth($font-sizes, 7);
+    margin: 0px;
+  }
+  
+  .banner__img--crop {
+    position: relative;
+    max-width: calc(1400px * 0.7);
+    height: calc(758px * 0.7);
+  }
+  
+  .banner__img--crop::before {
+    position: absolute;
+    content: '';
+    z-index: -1;
+    width: 1400px;
+    height: 100px;
+  }
+  
+  .slide-marker__unit {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    border: 1px solid $white;
+    margin: 0px 0px 0px 5px;
+  }
+  
+  .slide-marker__unit--active {
+    background: $white
+  }
+  
+  .slide-marker__unit--unactive {
+    background: none;
+  }
+}
+
+@media(min-width: $break-tablet){
+  .banner {
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .banner--inner {
+    max-width: 786px;
+    margin: 0 auto;
+    padding: 30px 0px 53px 0px;
+  }
+  
+  .banner--inner__container {
+    max-width: 500px;
+    text-align: center;
+    margin: 0px auto;
+  }
+  
+  .banner--inner-title {
+    display: block;
+    @include white-regular;
+    font-size: nth($font-sizes, 7);
+  }
+  
+  .banner--inner-main {
+    display: block;
+    @include white-bold;
+    font-size: nth($font-sizes, 10);
+    margin: 40px 0px;
+  }
+  
+  .banner--inner-arrow {
+    width: 21px;
+    height: 37px;
+    position: absolute;
+    right: 40px;
+    top: 323px;
+  }
+  
+  .banner--inner-paragraph {
+    display: none;
+    @include white-regular;
+    font-size: nth($font-sizes, 7);
+    margin: 0px;
+  }
+  
+  .banner__img--crop {
+    position: relative;
+    max-width: calc(1400px * 0.8);
+    height: calc(758px * 0.8);
+  }
+  
+  .banner__img--crop::before {
+    position: absolute;
+    content: '';
+    z-index: -1;
+    width: 1400px;
+    height: 100px;
+  }
+  
+  .slide-marker__unit {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    border: 1px solid $white;
+    margin: 0px 0px 0px 5px;
+  }
+  
+  .slide-marker__unit--active {
+    background: $white
+  }
+  
+  .slide-marker__unit--unactive {
+    background: none;
+  }
+}
+
+@media(min-width: $break-desktop-sm){
+  .banner {
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .banner--inner {
+    max-width: 786px;
+    margin: 0 auto;
+    padding: 30px 0px 53px 0px;
+  }
+  
+  .banner--inner__container {
+    max-width: 615px;
+    text-align: left;
+    margin: 0px;
+  }
+  
+  .banner--inner-title {
+    display: block;
+    font-size: nth($font-sizes, 7);
+  }
+  
+  .banner--inner-main {
+    display: block;
+    @include white-bold;
+    font-size: nth($font-sizes, 10);
+    margin: 40px 0px;
+  }
+  
+  .banner--inner-arrow {
+    width: 21px;
+    height: 37px;
+    position: absolute;
+    right: 40px;
+    top: 323px;
+  }
+  
+  .banner--inner-paragraph {
+    display: block;
+    @include white-regular;
+    font-size: nth($font-sizes, 7);
+    margin: 0px;
+  }
+  
+  .banner__img--crop {
+    position: relative;
+    max-width: calc(1400px * 0.8);
+    height: calc(758px * 0.8);
+  }
+  
+  .banner__img--crop::before {
+    position: absolute;
+    content: '';
+    z-index: -1;
+    width: 1400px;
+    height: 100px;
+  }
+  
+  .slide-marker__unit {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    border: 1px solid $white;
+    margin: 0px 0px 0px 5px;
+  }
+  
+  .slide-marker__unit--active {
+    background: $white
+  }
+  
+  .slide-marker__unit--unactive {
+    background: none;
+  }
+}
+
+@media(min-width: $break-desktop-md){
+  .banner {
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .banner--inner {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 30px 0px 53px 0px;
+  }
+  
+  .banner--inner__container {
+    max-width: 615px;
+    text-align: left;
+    margin: 0px;
+  }
+  
+  .banner--inner-title {
+    display: block;
+    font-size: nth($font-sizes, 8);
+  }
+  
+  .banner--inner-main {
+    display: block;
+    @include white-bold;
+    font-size: nth($font-sizes, 11);
+    margin: 40px 0px;
+  }
+  
+  .banner--inner-arrow {
+    width: 21px;
+    height: 37px;
+    position: absolute;
+    right: 40px;
+    top: 323px;
+  }
+  
+  .banner--inner-paragraph {
+    display: block;
+    @include white-regular;
+    font-size: nth($font-sizes, 7);
+    margin: 0px;
+  }
+  
+  .banner__img--crop {
+    position: relative;
+    max-width: 1400px;
+    height: 758px;
+  }
+  
+  .banner__img--crop::before {
+    position: absolute;
+    content: '';
+    z-index: -1;
+    width: 1400px;
+    height: 100px;
+  }
+  
+  .slide-marker__unit {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    border: 1px solid $white;
+    margin: 0px 0px 0px 5px;
+  }
+  
+  .slide-marker__unit--active {
+    background: $white
+  }
+  
+  .slide-marker__unit--unactive {
+    background: none;
+  }
 }
