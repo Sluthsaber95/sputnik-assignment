@@ -8,6 +8,8 @@ import {
 
 import { BannerHero, SlideMarkers, Marker } from "./BannerHero";
 
+import Services from "./Services";
+
 export {
   BannerHero,
   ButtonRectangle,
@@ -16,5 +18,6 @@ export {
   NavigationSection,
   NavigationLabel,
   NavigationMain,
+  Services,
   SlideMarkers
 };
