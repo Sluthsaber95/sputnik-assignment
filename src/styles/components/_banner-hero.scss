@@ -1,3 +1,7 @@
+.banner {
+  overflow: hidden;
+}
+
 @media(min-width: $break-mobile-sm){
   .banner {
     position: relative;

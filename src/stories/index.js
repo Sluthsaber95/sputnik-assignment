@@ -9,6 +9,7 @@ import {
   NavigationSection,
   NavigationLabel,
   NavigationMain,
+  Services,
   SlideMarkers
 } from "../components";
 import { IconArrow, IconMinus, IconPlus, IconSearch } from "./static/icons";
@@ -263,4 +264,6 @@ storiesOf("Hero Banner", module)
       </div>
     );
   })
-  .add("BannerHero", () => <BannerHero />)
+  .add("BannerHero", () => <BannerHero />);
+
+storiesOf("Services Section", module).add("Section", () => <Services />);

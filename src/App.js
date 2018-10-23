@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BannerHero, NavigationMain } from "./components";
+import { BannerHero, NavigationMain, Services } from "./components";
 
 class App extends Component {
   render() {
@@ -7,6 +7,7 @@ class App extends Component {
       <div>
         <NavigationMain />
         <BannerHero />
+        <Services />
       </div>
     );
   }
