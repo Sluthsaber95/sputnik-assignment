@@ -2,8 +2,11 @@
 
 
 ## Getting Started
-This project utilised create-react-app 2.0.4 - this was utilsed due to built-in sass support.
+This project utilised create-react-app v2.0.4 - this was utilsed due to built-in sass support.
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+## Essay Assignment
+Please checkout this shared [Google Doc](https://docs.google.com/document/d/1XJ04mlMPbJNOWiRNsyRnjIHmMWbeoqC8bdAzXb_wfvI/edit?usp=sharing)
 
 ## View Project Preview
 If you just want to go and test out the production site online - see [https://festive-ptolemy-09b2dc.netlify.com/](https://festive-ptolemy-09b2dc.netlify.com/)
@@ -17,7 +20,12 @@ What things you need to install the software and how to install them.
 ```
 
 ### Installing
-To get your project up and ready, use [yarn](https://yarnpkg.com/en/), rather than NPM. Why? To utilise all the tools within the dev environment such as StorybookJS, yarn is required. 
+To get your project up and ready, use [Yarn](https://yarnpkg.com/en/), rather than NPM. Why? To utilise all the tools within the dev environment such as StorybookJS, yarn is required. 
+
+Version Required
+- Yarn 1.10 or above
+
+<br/>
 
 ```
 yarn install
