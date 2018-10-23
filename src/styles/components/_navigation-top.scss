@@ -30,7 +30,7 @@
   
   .nav-label {
     @include dark-gray-regular();
-    font-size: $nav-section;
+    font-size: nth($font-sizes, 3);
     background: $white;
   }
 }
@@ -66,7 +66,7 @@
   
   .nav-label {
     @include dark-gray-regular();
-    font-size: $nav-section;
+    font-size: nth($font-sizes, 3);
     background: $white;
   }
 }
@@ -102,7 +102,7 @@
   
   .nav-label {
     @include dark-gray-regular();
-    font-size: $nav-section;
+    font-size: nth($font-sizes, 3);
     background: $white;
   }
 }
@@ -140,7 +140,7 @@
   
   .nav-label {
     @include dark-gray-regular();
-    font-size: $nav-section;
+    font-size: nth($font-sizes, 3);
     background: $white;
   }
 }
@@ -170,7 +170,7 @@
   
   .nav-label {
     @include dark-gray-regular();
-    font-size: $nav-section;
+    font-size: nth($font-sizes, 3);
     background: $white;
   }
 }
@@ -200,7 +200,7 @@
   
   .nav-label {
     @include dark-gray-regular();
-    font-size: $nav-section;
+    font-size: nth($font-sizes, 3);
     background: $white;
   }
 }
