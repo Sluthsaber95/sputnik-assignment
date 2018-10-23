@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import NavigationSection from "./NavigationSection";
 import LogoCompany from "./logo-header.svg";
 import IconHamburger from "./icon-hamburger.svg";
